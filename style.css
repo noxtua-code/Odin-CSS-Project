@@ -18,7 +18,7 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    height: 600px;
+    height: 700px;
     gap: 10px;
     padding-bottom: 50;
 }
@@ -41,6 +41,7 @@ body {
     font-size: 32px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 130px;
 }
 
 .hero-main-text {
@@ -51,14 +52,14 @@ body {
 
 .hero-secondary-text {
     color: #e5e7ebc5;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .top-container .sign-up-button { 
     background-color: #3882F6;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 8px 40px;
-    font-size: 16px;
+    font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
     border-radius: 8px;
@@ -72,10 +73,10 @@ ul  {
     gap: 30px;
     color: #e5e7ebc5;
     font-size: 24px;
+    margin-bottom: 130px;
 }
 
 img {
-    margin-top: 70px;
     width: 550px;
 }
    
@@ -83,9 +84,32 @@ img {
 .second-container {
     display: flex;
     background-color: #fff;
-    height: 400px;
+    height: 450px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: 30px;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.images-container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.image-and-subtext {
+    max-width: 150px;
+    text-align: center;
+    color: #1F2937;
+    font-size: 20px;
 }
 
 .third-container {
@@ -121,19 +145,38 @@ h3 {
 
 .call-to-action {
     background-color: #3882F6;
-    margin: 20px 200px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 30px;
-    width: 1000px;
+    width: 1400px;
     color: #F9FAF8;
-    
+    border-radius: 8px;
+    height: 200px;
 }
 
+.sign-up-button.bottom {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin-top: 20px;
+    padding: 8px 40px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 3px solid #F9FAF8;
+    border-radius: 8px;
+}
+
+.call-to-action-text {
+    font-size: 24px;
+    }
+
+.call-to-action h3{
+    text-align: left;
+    font-size: 30px;
+    margin-top: 0;
+} 
 .footer {
     background-color: #1F2937;
-    color: #010202c5;
+    color: #e5e7ebc5;
     padding: 20px;
     text-align: center;
     justify-self: flex-end;
